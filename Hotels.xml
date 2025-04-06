@@ -7,8 +7,8 @@
     <!-- Sample Hotel from Figure 1 -->
     <Hotel Rating="4.2">
         <Name>Westin</Name>
-        <Phone>4809688885</Phone>
-        <Phone>8009378461</Phone>
+        <Phone>480-968-8885</Phone>
+        <Phone>800-937-8461</Phone>
         <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>11</Number>
             <Street>E 7th St</Street>
@@ -21,7 +21,7 @@
     <!-- Hotel 1: Hilton Downtown -->
     <Hotel>
         <Name>Hilton Downtown</Name>
-        <Phone>6025550101</Phone>
+        <Phone>602-555-0101</Phone>
         <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>200</Number>
             <Street>West Monroe St</Street>
@@ -34,8 +34,8 @@
     <!-- Hotel 2: Marriott Marquis -->
     <Hotel Rating="4.5">
         <Name>Marriott Marquis</Name>
-        <Phone>6025550202</Phone>
-        <Phone>6025550203</Phone>
+        <Phone>602-555-0202</Phone>
+        <Phone>602-555-0203</Phone>
         <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>300</Number>
             <Street>N 3rd Ave</Street>
@@ -48,7 +48,7 @@
     <!-- Hotel 3: Sheraton Grand -->
     <Hotel Rating="4.0">
         <Name>Sheraton Grand</Name>
-        <Phone>4805550303</Phone>
+        <Phone>480-555-0303</Phone>
         <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>150</Number>
             <Street>S Rural Rd</Street>
@@ -61,7 +61,7 @@
     <!-- Hotel 4: Holiday Inn Express -->
     <Hotel>
         <Name>Holiday Inn Express</Name>
-        <Phone>6025550404</Phone>
+        <Phone>602-555-0404</Phone>
         <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>123</Number>
             <Street>S Central Ave</Street>
@@ -74,7 +74,7 @@
     <!-- Hotel 5: Hyatt Regency -->
     <Hotel Rating="4.3">
         <Name>Hyatt Regency</Name>
-        <Phone>4805550505</Phone>
+        <Phone>480-555-0505</Phone>
         <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>75</Number>
             <Street>E University Dr</Street>
@@ -87,7 +87,7 @@
     <!-- Hotel 6: Four Seasons Hotel -->
     <Hotel Rating="4.8">
         <Name>Four Seasons Hotel</Name>
-        <Phone>6025550606</Phone>
+        <Phone>602-555-0606</Phone>
         <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>500</Number>
             <Street>N Central Ave</Street>
@@ -100,8 +100,8 @@
     <!-- Hotel 7: Ritz Carlton -->
     <Hotel>
         <Name>Ritz Carlton</Name>
-        <Phone>4805550707</Phone>
-        <Phone>4805550708</Phone>
+        <Phone>480-555-0707</Phone>
+        <Phone>480-555-0708</Phone>
         <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>400</Number>
             <Street>E Camelback Rd</Street>
@@ -114,7 +114,7 @@
     <!-- Hotel 8: InterContinental Phoenix -->
     <Hotel Rating="4.4">
         <Name>InterContinental Phoenix</Name>
-        <Phone>6025550808</Phone>
+        <Phone>602-555-0808</Phone>
         <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>350</Number>
             <Street>W Washington St</Street>
@@ -127,7 +127,7 @@
     <!-- Hotel 9: Comfort Inn -->
     <Hotel>
         <Name>Comfort Inn</Name>
-        <Phone>4805550909</Phone>
+        <Phone>480-555-0909</Phone>
         <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>50</Number>
             <Street>N 7th St</Street>
@@ -140,7 +140,7 @@
     <!-- Hotel 10: Best Western Plus -->
     <Hotel Rating="4.1">
         <Name>Best Western Plus</Name>
-        <Phone>6025551010</Phone>
+        <Phone>602-555-1010</Phone>
         <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>600</Number>
             <Street>S Grand Ave</Street>
