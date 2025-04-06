@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <!-- Error 1: Root element changed from "Hotels" to "Hotel" -->
-<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
+<Hotel  
+    xmlns="https://aksbin.github.io/cse445_a4" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://aksbin.github.io/cse445_a4 https://aksbin.github.io/cse445_a4/Hotels.xsd">
     
     <!-- Sample Hotel from Figure 1 -->
-    <Hotel _Rating="4.2">
+    <Hotel Rating="4.2">
         <Name>Westin</Name>
-        <Phone>4809688885</Phone>
-        <Phone>8009378461</Phone>
-        <Address _NearestAirport="Phoenix Sky Harbor International Airport">
+        <Phone>480-968-8885</Phone>
+        <Phone>800-937-8461</Phone>
+        <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>11</Number>
             <Street>E 7th St</Street>
             <City>Tempe</City>
@@ -16,11 +20,11 @@
         </Address>
     </Hotel>
 
-    <!-- Hotel 1: Hilton Downtown 
-         Error 2: Missing required attribute "_NearestAirport" on Address -->
+    <!-- Hotel 1: Hilton Downtown -->
+    <!-- Error 2: Missing required attribute "_NearestAirport" on Address -->
     <Hotel>
         <Name>Hilton Downtown</Name>
-        <Phone>6025550101</Phone>
+        <Phone>602-555-0101</Phone>
         <Address>
             <Number>200</Number>
             <Street>West Monroe St</Street>
@@ -30,42 +34,40 @@
         </Address>
     </Hotel>
 
-    <!-- Hotel 2: Marriott Marquis 
-         Error 4: Address element missing its closing tag -->
-    <Hotel _Rating="4.5">
+    <!-- Hotel 2: Marriott Marquis -->
+    <!-- Error 3: Missing Phone element -->
+    <Hotel Rating="4.5">
         <Name>Marriott Marquis</Name>
-        <Phone>6025550202</Phone>
-        <Phone>6025550203</Phone>
-        <Address _NearestAirport="Phoenix Sky Harbor International Airport">
+        <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>300</Number>
             <Street>N 3rd Ave</Street>
             <City>Phoenix</City>
             <State>AZ</State>
             <Zip>85004</Zip>
-        <!-- Missing </Address> here -->
+        </Address>
     </Hotel>
 
-    <!-- Hotel 3: Sheraton Grand 
-         Error 3: Missing Phone element -->
-    <Hotel _Rating="4.0">
+    <!-- Hotel 3: Sheraton Grand -->
+    <!-- Error 4: Address element missing its closing tag -->
+    <Hotel Rating="4.0">
         <Name>Sheraton Grand</Name>
-        <!-- Missing <Phone> element -->
-        <Address _NearestAirport="Phoenix Sky Harbor International Airport">
+        <Phone>480-555-0303</Phone>
+        <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>150</Number>
             <Street>S Rural Rd</Street>
             <City>Tempe</City>
             <State>AZ</State>
             <Zip>85281</Zip>
-        </Address>
+       
     </Hotel>
 
-    <!-- Hotel 4: Holiday Inn Express 
-         Error 5: Two Name elements provided -->
+    <!-- Hotel 4: Holiday Inn Express -->
+    <!-- Error 5: Two Name elements provided -->
     <Hotel>
         <Name>Holiday Inn Express</Name>
-        <Name>Holiday Inn Express Duplicate</Name>
-        <Phone>6025550404</Phone>
-        <Address _NearestAirport="Phoenix Sky Harbor International Airport">
+        <Name>Holiday Inn Express DUPLICATE</Name>
+        <Phone>602-555-0404</Phone>
+        <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>123</Number>
             <Street>S Central Ave</Street>
             <City>Phoenix</City>
@@ -75,10 +77,10 @@
     </Hotel>
 
     <!-- Hotel 5: Hyatt Regency -->
-    <Hotel _Rating="4.3">
+    <Hotel Rating="4.3">
         <Name>Hyatt Regency</Name>
-        <Phone>4805550505</Phone>
-        <Address _NearestAirport="Phoenix Sky Harbor International Airport">
+        <Phone>480-555-0505</Phone>
+        <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>75</Number>
             <Street>E University Dr</Street>
             <City>Tempe</City>
@@ -88,10 +90,10 @@
     </Hotel>
 
     <!-- Hotel 6: Four Seasons Hotel -->
-    <Hotel _Rating="4.8">
+    <Hotel Rating="4.8">
         <Name>Four Seasons Hotel</Name>
-        <Phone>6025550606</Phone>
-        <Address _NearestAirport="Phoenix Sky Harbor International Airport">
+        <Phone>602-555-0606</Phone>
+        <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>500</Number>
             <Street>N Central Ave</Street>
             <City>Phoenix</City>
@@ -103,9 +105,9 @@
     <!-- Hotel 7: Ritz Carlton -->
     <Hotel>
         <Name>Ritz Carlton</Name>
-        <Phone>4805550707</Phone>
-        <Phone>4805550708</Phone>
-        <Address _NearestAirport="Phoenix Sky Harbor International Airport">
+        <Phone>480-555-0707</Phone>
+        <Phone>480-555-0708</Phone>
+        <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>400</Number>
             <Street>E Camelback Rd</Street>
             <City>Phoenix</City>
@@ -115,10 +117,10 @@
     </Hotel>
 
     <!-- Hotel 8: InterContinental Phoenix -->
-    <Hotel _Rating="4.4">
+    <Hotel Rating="4.4">
         <Name>InterContinental Phoenix</Name>
-        <Phone>6025550808</Phone>
-        <Address _NearestAirport="Phoenix Sky Harbor International Airport">
+        <Phone>602-555-0808</Phone>
+        <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>350</Number>
             <Street>W Washington St</Street>
             <City>Phoenix</City>
@@ -130,8 +132,8 @@
     <!-- Hotel 9: Comfort Inn -->
     <Hotel>
         <Name>Comfort Inn</Name>
-        <Phone>4805550909</Phone>
-        <Address _NearestAirport="Phoenix Sky Harbor International Airport">
+        <Phone>480-555-0909</Phone>
+        <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>50</Number>
             <Street>N 7th St</Street>
             <City>Tempe</City>
@@ -141,10 +143,10 @@
     </Hotel>
 
     <!-- Hotel 10: Best Western Plus -->
-    <Hotel _Rating="4.1">
+    <Hotel Rating="4.1">
         <Name>Best Western Plus</Name>
-        <Phone>6025551010</Phone>
-        <Address _NearestAirport="Phoenix Sky Harbor International Airport">
+        <Phone>602-555-1010</Phone>
+        <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>600</Number>
             <Street>S Grand Ave</Street>
             <City>Phoenix</City>
@@ -152,5 +154,4 @@
             <Zip>85004</Zip>
         </Address>
     </Hotel>
-
-</Hotel>
+</Hotels>
