@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+     xmlns="https://aksbin.github.io/cse445_a4" 
+    targetNamespace="https://aksbin.github.io/cse445_a4" 
+    elementFormDefault="qualified" 
+    attributeFormDefault="unqualified">>
     <!-- Sample Hotel from Figure 1 -->
     <Hotel _Rating="4.2">
         <Name>Westin</Name>
         <Phone>4809688885</Phone>
         <Phone>8009378461</Phone>
-        <Address _NearestAirport="Phoenix Sky Harbor International Airport">
+        <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>11</Number>
             <Street>E 7th St</Street>
             <City>Tempe</City>
@@ -18,7 +22,7 @@
     <Hotel>
         <Name>Hilton Downtown</Name>
         <Phone>6025550101</Phone>
-        <Address _NearestAirport="Phoenix Sky Harbor International Airport">
+        <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>200</Number>
             <Street>West Monroe St</Street>
             <City>Phoenix</City>
@@ -32,7 +36,7 @@
         <Name>Marriott Marquis</Name>
         <Phone>6025550202</Phone>
         <Phone>6025550203</Phone>
-        <Address _NearestAirport="Phoenix Sky Harbor International Airport">
+        <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>300</Number>
             <Street>N 3rd Ave</Street>
             <City>Phoenix</City>
@@ -45,7 +49,7 @@
     <Hotel _Rating="4.0">
         <Name>Sheraton Grand</Name>
         <Phone>4805550303</Phone>
-        <Address _NearestAirport="Phoenix Sky Harbor International Airport">
+        <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>150</Number>
             <Street>S Rural Rd</Street>
             <City>Tempe</City>
@@ -58,7 +62,7 @@
     <Hotel>
         <Name>Holiday Inn Express</Name>
         <Phone>6025550404</Phone>
-        <Address _NearestAirport="Phoenix Sky Harbor International Airport">
+        <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>123</Number>
             <Street>S Central Ave</Street>
             <City>Phoenix</City>
@@ -71,7 +75,7 @@
     <Hotel _Rating="4.3">
         <Name>Hyatt Regency</Name>
         <Phone>4805550505</Phone>
-        <Address _NearestAirport="Phoenix Sky Harbor International Airport">
+        <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>75</Number>
             <Street>E University Dr</Street>
             <City>Tempe</City>
@@ -84,7 +88,7 @@
     <Hotel _Rating="4.8">
         <Name>Four Seasons Hotel</Name>
         <Phone>6025550606</Phone>
-        <Address _NearestAirport="Phoenix Sky Harbor International Airport">
+        <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>500</Number>
             <Street>N Central Ave</Street>
             <City>Phoenix</City>
@@ -98,7 +102,7 @@
         <Name>Ritz Carlton</Name>
         <Phone>4805550707</Phone>
         <Phone>4805550708</Phone>
-        <Address _NearestAirport="Phoenix Sky Harbor International Airport">
+        <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>400</Number>
             <Street>E Camelback Rd</Street>
             <City>Phoenix</City>
@@ -111,7 +115,7 @@
     <Hotel _Rating="4.4">
         <Name>InterContinental Phoenix</Name>
         <Phone>6025550808</Phone>
-        <Address _NearestAirport="Phoenix Sky Harbor International Airport">
+        <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>350</Number>
             <Street>W Washington St</Street>
             <City>Phoenix</City>
@@ -124,7 +128,7 @@
     <Hotel>
         <Name>Comfort Inn</Name>
         <Phone>4805550909</Phone>
-        <Address _NearestAirport="Phoenix Sky Harbor International Airport">
+        <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>50</Number>
             <Street>N 7th St</Street>
             <City>Tempe</City>
@@ -137,7 +141,7 @@
     <Hotel _Rating="4.1">
         <Name>Best Western Plus</Name>
         <Phone>6025551010</Phone>
-        <Address _NearestAirport="Phoenix Sky Harbor International Airport">
+        <Address NearstAirport="Phoenix Sky Harbor International Airport">
             <Number>600</Number>
             <Street>S Grand Ave</Street>
             <City>Phoenix</City>
