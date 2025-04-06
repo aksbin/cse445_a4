@@ -5,6 +5,13 @@
   elementFormDefault="qualified" 
   attributeFormDefault="unqualified">
 
+    <!-- Define a simple type for phone numbers with a pattern -->
+  <xs:simpleType name="PhoneType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d{3}\-\d{3} \d{4}"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
   <!-- Root element: Hotels -->
   <xs:element name="Hotels">
     <xs:complexType>
@@ -28,13 +35,13 @@
                     <xs:element name="State" type="xs:string"/>
                     <xs:element name="Zip" type="xs:integer"/>
                   </xs:sequence>
-                  <!-- Required attribute NearestAirport -->
-                  <xs:attribute name="_NearestAirport" type="xs:string" use="required"/>
+                  <!-- Required attribute NearstAirport with the exact spelling -->
+                  <xs:attribute name="NearstAirport" type="xs:string" use="required"/>
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
-            <!-- Optional attribute Rating -->
-            <xs:attribute name="_Rating" type="xs:decimal" use="optional"/>
+            <!-- Optional attribute Rating remains on Hotel -->
+            <xs:attribute name="Rating" type="xs:decimal" use="optional"/>
           </xs:complexType>
         </xs:element>
       </xs:sequence>
