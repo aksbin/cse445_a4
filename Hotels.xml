@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
     <!-- Sample Hotel from Figure 1 -->
-    <Hotel Rating="4.2" NearestAirport="Phoenix Sky Harbor International Airport">
+    <Hotel _Rating="4.2" _NearestAirport="Phoenix Sky Harbor International Airport">
         <Name>Westin</Name>
         <Phone>4809688885</Phone>
         <Phone>8009378461</Phone>
@@ -15,7 +15,7 @@
     </Hotel>
 
     <!-- Hotel 1: Hilton Downtown -->
-    <Hotel NearestAirport="Phoenix Sky Harbor International Airport">
+    <Hotel _NearestAirport="Phoenix Sky Harbor International Airport">
         <Name>Hilton Downtown</Name>
         <Phone>6025550101</Phone>
         <Address>
@@ -28,7 +28,7 @@
     </Hotel>
 
     <!-- Hotel 2: Marriott Marquis -->
-    <Hotel Rating="4.5" NearestAirport="Phoenix Sky Harbor International Airport">
+    <Hotel _Rating="4.5" _NearestAirport="Phoenix Sky Harbor International Airport">
         <Name>Marriott Marquis</Name>
         <Phone>6025550202</Phone>
         <Phone>6025550203</Phone>
@@ -42,7 +42,7 @@
     </Hotel>
 
     <!-- Hotel 3: Sheraton Grand -->
-    <Hotel Rating="4.0" NearestAirport="Phoenix Sky Harbor International Airport">
+    <Hotel _Rating="4.0" _NearestAirport="Phoenix Sky Harbor International Airport">
         <Name>Sheraton Grand</Name>
         <Phone>4805550303</Phone>
         <Address>
@@ -55,7 +55,7 @@
     </Hotel>
 
     <!-- Hotel 4: Holiday Inn Express -->
-    <Hotel NearestAirport="Phoenix Sky Harbor International Airport">
+    <Hotel _NearestAirport="Phoenix Sky Harbor International Airport">
         <Name>Holiday Inn Express</Name>
         <Phone>6025550404</Phone>
         <Address>
@@ -68,7 +68,7 @@
     </Hotel>
 
     <!-- Hotel 5: Hyatt Regency -->
-    <Hotel Rating="4.3" NearestAirport="Phoenix Sky Harbor International Airport">
+    <Hotel _Rating="4.3" _NearestAirport="Phoenix Sky Harbor International Airport">
         <Name>Hyatt Regency</Name>
         <Phone>4805550505</Phone>
         <Address>
@@ -81,7 +81,7 @@
     </Hotel>
 
     <!-- Hotel 6: Four Seasons Hotel -->
-    <Hotel Rating="4.8" NearestAirport="Phoenix Sky Harbor International Airport">
+    <Hotel _Rating="4.8" _NearestAirport="Phoenix Sky Harbor International Airport">
         <Name>Four Seasons Hotel</Name>
         <Phone>6025550606</Phone>
         <Address>
@@ -94,7 +94,7 @@
     </Hotel>
 
     <!-- Hotel 7: Ritz Carlton -->
-    <Hotel NearestAirport="Phoenix Sky Harbor International Airport">
+    <Hotel _NearestAirport="Phoenix Sky Harbor International Airport">
         <Name>Ritz Carlton</Name>
         <Phone>4805550707</Phone>
         <Phone>4805550708</Phone>
@@ -108,7 +108,7 @@
     </Hotel>
 
     <!-- Hotel 8: InterContinental Phoenix -->
-    <Hotel Rating="4.4" NearestAirport="Phoenix Sky Harbor International Airport">
+    <Hotel _Rating="4.4" _NearestAirport="Phoenix Sky Harbor International Airport">
         <Name>InterContinental Phoenix</Name>
         <Phone>6025550808</Phone>
         <Address>
@@ -121,7 +121,7 @@
     </Hotel>
 
     <!-- Hotel 9: Comfort Inn -->
-    <Hotel NearestAirport="Phoenix Sky Harbor International Airport">
+    <Hotel _NearestAirport="Phoenix Sky Harbor International Airport">
         <Name>Comfort Inn</Name>
         <Phone>4805550909</Phone>
         <Address>
@@ -134,7 +134,7 @@
     </Hotel>
 
     <!-- Hotel 10: Best Western Plus -->
-    <Hotel Rating="4.1" NearestAirport="Phoenix Sky Harbor International Airport">
+    <Hotel _Rating="4.1" _NearestAirport="Phoenix Sky Harbor International Airport">
         <Name>Best Western Plus</Name>
         <Phone>6025551010</Phone>
         <Address>
