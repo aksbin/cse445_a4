@@ -8,7 +8,7 @@
     <!-- Define a simple type for phone numbers with a pattern -->
   <xs:simpleType name="PhoneType">
     <xs:restriction base="xs:string">
-      <xs:pattern value="\d{3}\-\d{3} \d{4}"/>
+      <xs:pattern value="\d{3}\-\d{3}-\d{4}"/>
     </xs:restriction>
   </xs:simpleType>
   
