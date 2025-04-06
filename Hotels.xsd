@@ -24,13 +24,13 @@
                     <xs:element name="State" type="xs:string"/>
                     <xs:element name="Zip" type="xs:integer"/>
                   </xs:sequence>
+                  <!-- Required attribute NearestAirport -->
+                  <xs:attribute name="_NearestAirport" type="xs:string" use="required"/>
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
             <!-- Optional attribute Rating -->
             <xs:attribute name="_Rating" type="xs:decimal" use="optional"/>
-            <!-- Required attribute NearestAirport -->
-            <xs:attribute name="_NearestAirport" type="xs:string" use="required"/>
           </xs:complexType>
         </xs:element>
       </xs:sequence>
