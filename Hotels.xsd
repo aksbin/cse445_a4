@@ -23,7 +23,7 @@
               <!-- Hotel has a Name element -->
               <xs:element name="Name" type="xs:string"/>
               <!-- Hotel has one or more Phone elements -->
-              <xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+              <xs:element name="Phone" type="PhoneType" minOccurs="1" maxOccurs="unbounded"/>
               <!-- Hotel has an Address element -->
               <xs:element name="Address">
                 <xs:complexType>
